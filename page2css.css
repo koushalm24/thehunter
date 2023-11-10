@@ -1,0 +1,79 @@
+@font-face {
+    font-family: din;
+    src: url('fonts/din.ttf');
+}
+
+@font-face {
+    font-family: tungu;
+    src: url('fonts/FontsFree-Net-Tungsten-Bold.ttf');
+}
+
+#recon {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+
+#recon h3 {
+    text-transform: uppercase;
+    color: #0F1923;
+    font-family: tungu;
+    font-size: 60px;
+    padding: 15px;
+}
+
+.abilities {
+    display: flex;
+}
+
+.ability {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ability h4 {
+    color: #383E3A;
+    font-family: din;
+    text-transform: uppercase;
+    font-size: 31px;
+    padding: 25px;
+}
+
+.ability p {
+    color: #768079;
+    font-family: din;
+    font-size: 26px;
+    padding: 2px 25px;
+}
+
+.ability img {
+    margin-top: 15px;
+    background-color: #000;
+    width: 20%;
+}
+
+.abilities video {
+    width: 50vw;
+}
+
+#shockdart {
+    padding-top: 60px;
+    width: 100vw;
+    height: 100vh;
+}
+
+#drone {
+    padding-top: 60px;
+    width: 100vw;
+    height: 100vh;
+}
+
+#fury {
+    padding-top: 60px;
+    width: 100vw;
+    height: 100vh;
+}
