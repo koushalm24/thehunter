@@ -168,7 +168,8 @@
     #recon {
         width: 100vw;
         height: 100vh;
-        margin-top: 30em;
+        margin-top: 31em;
+        background-color: #ece8e1;
     }
 
 
@@ -183,6 +184,7 @@
 
     .abilities {
         display: block;
+        background-color: #ece8e1;
     }
 
     .ability {
