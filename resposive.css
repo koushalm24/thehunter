@@ -1,0 +1,241 @@
+@media only screen and (max-width: 365px) and (min-width: 0px) {
+    @font-face {
+        font-family: din;
+        src: url('fonts/din.ttf');
+    }
+
+    @font-face {
+        font-family: tungu;
+        src: url('fonts/FontsFree-Net-Tungsten-Bold.ttf');
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: #ece8e1;
+        scroll-behavior: smooth;
+    }
+
+    .cont {
+        height: 100vh;
+        scroll-snap-type: none;
+        overflow: none;
+        width: 100vw;
+    }
+
+    .area {
+        scroll-snap-align: none;
+        height: 100vh;
+    }
+
+    #page1 {
+        background-color: #0F1923;
+        display: flex;
+        padding: 5px 15px;
+        position: relative;
+        flex-direction: column;
+    }
+
+    nav {
+        margin-right: 9%;
+        display: flex;
+        flex-direction: column;
+        width: 1vw;
+        text-transform: uppercase;
+    }
+
+    nav h1 {
+        position: relative;
+        font-size: 120px;
+        font-family: tungu, arial, georgia, sans-serif;
+        font-weight: 400;
+        word-spacing: 0px;
+        letter-spacing: normal;
+        margin-bottom: 45px;
+    }
+
+    nav h1::after {
+        content: "The Hunter";
+        text-transform: uppercase;
+        font-size: 30px;
+        position: absolute;
+        top: 82%;
+        left: 38%;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin-left: 20%;
+        position: relative;
+        display: flex;
+        width: 100vw;
+    }
+
+    nav ul li {
+        width: 20vw;
+        display: flex;
+        position: relative;
+        padding: 1em;
+    }
+
+    nav ul li img {
+
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    nav ul li:nth-child(1):after {
+        content: "E";
+        position: absolute;
+        top: 85%;
+        left: 100%;
+    }
+
+    nav ul li:nth-child(2):after {
+        content: "Q";
+        position: absolute;
+        top: 85%;
+        left: 100%
+    }
+
+    nav ul li:nth-child(3):after {
+        content: "C";
+        position: absolute;
+        top: 85%;
+        left: 100%
+    }
+
+    nav ul li:nth-child(4):after {
+        content: "X";
+        position: absolute;
+        top: 85%;
+        left: 100%
+    }
+
+    #sova {
+        width: 100vw;
+        padding-bottom: 1em;
+        padding-top: 1em;
+    }
+
+    #sova img {
+        margin-top: 1em;
+        height: 60vh;
+        position: relative;
+        left: -0.5em;
+    }
+
+
+    .desc {
+        margin-left: 0;
+        justify-content: start;
+        align-items: start;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .desc span {
+        font-family: din;
+        margin: 15px 0px;
+    }
+
+    .desc h2 {
+        font-family: tungu;
+        font-size: 60px;
+        margin-bottom: 25px;
+    }
+
+    .desc p {
+        margin-top: 20px;
+        font-family: din;
+        font-size: 16px;
+        line-height: 24px;
+        width: 100%;
+    }
+
+    .desc img {
+        margin-left: 0.5rem;
+        margin-top: 1rem;
+        width: 2rerm;
+        height: 2rem;
+    }
+
+    #recon {
+        width: 100vw;
+        height: 100vh;
+        margin-top: 25em;
+    }
+
+
+    #recon h3 {
+        text-transform: uppercase;
+        color: #0F1923;
+        font-family: tungu;
+        font-size: 50px;
+        padding: 15px;
+
+    }
+
+    .abilities {
+        display: block;
+    }
+
+    .ability {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ability h4 {
+        color: #383E3A;
+        font-family: din;
+        text-transform: uppercase;
+        font-size: 30px;
+        padding: 25px;
+        width: 100vw;
+    }
+
+    .ability p {
+        color: #768079;
+        font-family: din;
+        font-size: 22px;
+        padding: 2px 25px;
+        width: 100vw;
+    }
+
+    .ability img {
+        margin-top: 15px;
+        background-color: #000;
+        width: 30vw;
+    }
+
+    .abilities video {
+        width: 99vw;
+    }
+
+    #shockdart {
+        padding-top: 60px;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #drone {
+        padding-top: 60px;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #fury {
+        padding-top: 60px;
+        width: 100vw;
+        height: 100vh;
+    }
+
+
+    #audios audio {
+        display: none;
+    }
+}
