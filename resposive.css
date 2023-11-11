@@ -46,13 +46,14 @@
     }
 
     nav h1 {
+        width: 100vw;
         position: relative;
         font-size: 120px;
         font-family: tungu, arial, georgia, sans-serif;
         font-weight: 400;
         word-spacing: 0px;
         letter-spacing: normal;
-        margin-bottom: 45px;
+        margin-bottom: 1rem;
     }
 
     nav h1::after {
@@ -61,7 +62,7 @@
         font-size: 30px;
         position: absolute;
         top: 82%;
-        left: 38%;
+        left: 20%;
     }
 
     nav ul {
@@ -167,7 +168,7 @@
     #recon {
         width: 100vw;
         height: 100vh;
-        margin-top: 43em;
+        margin-top: 30em;
     }
 
 
