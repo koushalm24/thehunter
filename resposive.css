@@ -20,7 +20,7 @@
     .cont {
         height: 100vh;
         scroll-snap-type: none;
-        overflow: none;
+        overflow: scroll;
         width: 100vw;
     }
 
@@ -32,7 +32,7 @@
     #page1 {
         background-color: #0F1923;
         display: flex;
-        padding: 5px 15px;
+        padding: 0 0;
         position: relative;
         flex-direction: column;
     }
@@ -54,6 +54,7 @@
         word-spacing: 0px;
         letter-spacing: normal;
         margin-bottom: 1rem;
+        margin-left: 0.1em;
     }
 
     nav h1::after {
@@ -67,14 +68,14 @@
 
     nav ul {
         list-style-type: none;
-        margin-left: 20%;
+        /* margin-left: 20%; */
         position: relative;
         display: flex;
         width: 100vw;
     }
 
     nav ul li {
-        width: 20vw;
+        /* width: 20vw; */
         display: flex;
         position: relative;
         padding: 1em;
@@ -91,29 +92,29 @@
     nav ul li:nth-child(1):after {
         content: "E";
         position: absolute;
-        top: 85%;
-        left: 100%;
+        top: 80%;
+        left: 70%;
     }
 
     nav ul li:nth-child(2):after {
         content: "Q";
         position: absolute;
-        top: 85%;
-        left: 100%
+        top: 80%;
+        left: 70%
     }
 
     nav ul li:nth-child(3):after {
         content: "C";
         position: absolute;
-        top: 85%;
-        left: 100%
+        top: 80%;
+        left: 70%
     }
 
     nav ul li:nth-child(4):after {
         content: "X";
         position: absolute;
-        top: 85%;
-        left: 100%
+        top: 80%;
+        left: 70%
     }
 
     #sova {
@@ -131,7 +132,7 @@
 
 
     .desc {
-        margin-left: 0;
+        margin-left: 0.6em;
         justify-content: start;
         align-items: start;
         display: flex;
@@ -140,7 +141,7 @@
 
     .desc span {
         font-family: din;
-        margin: 15px 0px;
+        margin: 15px 1px;
     }
 
     .desc h2 {
@@ -168,7 +169,7 @@
     #recon {
         width: 100vw;
         height: 100vh;
-        margin-top: 31em;
+        margin-top: 30em;
         background-color: #ece8e1;
     }
 
