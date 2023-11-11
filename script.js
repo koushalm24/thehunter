@@ -16,22 +16,22 @@ var b4 = document.getElementById("fury");
 //   image.style.left = 350 + 1 - dets.x * 0.01 + "px";
 // });
 
-b1.addEventListener("touch", (e) => {
+b1.addEventListener("touchend", (e) => {
   e.preventDefault();
   sound1.play();
 });
 
-b2.addEventListener("dblclick", (e) => {
+b2.addEventListener("touchend", (e) => {
   e.preventDefault();
   sound2.play();
 });
 
-b3.addEventListener("dblclick", (e) => {
+b3.addEventListener("touchend", (e) => {
   e.preventDefault();
   sound3.play();
 });
 
-b4.addEventListener("dblclick", (e) => {
+b4.addEventListener("touchend", (e) => {
   e.preventDefault();
   sound4.play();
 });
