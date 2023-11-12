@@ -1,5 +1,5 @@
-// var image = document.querySelector("#sova>img");
-// var p1 = document.querySelector("#page1");
+var image = document.querySelector("#sova>img");
+var p1 = document.querySelector("#page1");
 
 var sound1 = document.getElementById("rervealingarera");
 var sound2 = document.getElementById("shock");
@@ -11,10 +11,14 @@ var b2 = document.getElementById("shockdart");
 var b3 = document.getElementById("drone");
 var b4 = document.getElementById("fury");
 
-// p1.addEventListener("mousemove", function (dets) {
-//   image.style.top = 30 + 1 - dets.y * 0.01 + "px";
-//   image.style.left = 350 + 1 - dets.x * 0.01 + "px";
-// });
+p1.addEventListener("mousemove", function (dets) {
+  if(screen.availWidth>1279){
+
+    image.style.top = 30 + 1 - dets.y * 0.01 + "px";
+    image.style.left = 350 + 1 - dets.x * 0.01 + "px";
+  }
+});
+
 
 b1.addEventListener("touchend", (e) => {
   e.preventDefault();
